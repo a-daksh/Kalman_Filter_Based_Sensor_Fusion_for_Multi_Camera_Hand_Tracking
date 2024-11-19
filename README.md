@@ -30,4 +30,4 @@ This repository contains the implementation of a system for improving joint angl
 1. **Python 3.8+**
 2. Install required libraries:
    ```bash
-   pip install numpy opencv-python mediapipe torch torchvision
+   pip install numpy opencv-python mediapipe matplotlib pandas protobuf
