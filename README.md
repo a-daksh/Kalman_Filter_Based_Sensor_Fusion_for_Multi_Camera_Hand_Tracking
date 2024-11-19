@@ -18,12 +18,12 @@ This repository contains the implementation of a system for improving joint angl
 
 | File Name               | Description                                                                 |
 |-------------------------|-----------------------------------------------------------------------------|
-| `cam_mixed.csv`         | Sample dataset combining readings from dual cameras for sensor fusion.     |
-| `graph.py`              | Script for visualizing the results, such as joint estimation accuracy.     |
+| `cam_mixed.csv`         | Sample dataset with readings from dual cameras and fused sensor readings.   |
+| `graph.py`              | Script for visualizing the results.                                        |
 | `Hand_Graph.png`        | Example output graph showing joint estimation improvement.                 |
 | `kalman.py`             | Kalman filter implementation for fusing dual camera sensor data.          |
-| `threaded_Camera.py`    | Multi-threaded implementation for real-time camera data acquisition.       |
-| `threaded_Camera_2.py`  | Extended version with enhancements for real-time processing.               |
+| `threaded_Camera.py`    | Multi-threaded implementation for real-time camera data acquisition (Camera 1).       |
+| `threaded_Camera_2.py`  | Multi-threaded implementation for real-time camera data acquisition (Camera 2)               |
 
 ## Prerequisites
 
